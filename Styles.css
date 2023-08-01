@@ -13,14 +13,13 @@ body {
 
   #tertiary-body h1{
     padding-left: 150px;
-    text-shadow: 2px 2px 4px #000000;
   }
 
   .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
     gap: 5px;
     padding-top: 5%;
   }
@@ -34,38 +33,29 @@ body {
     justify-content: center;
   }
 
-  .grid-item p{
-  
+  .grid-item-p{
     font-size: 50px;
     font-family: "Raleway variant0", Tofu;
-    color: #cd9e27;
+    color:  #222242;
+    font-weight: bold;
   
   }
 
-  .grid-item a{
-   
+  .grid-item-a{
     font-size: 50px;
     font-family: "Raleway variant0", Tofu;
-    color: #cd9e27;;
+    color:  #222242;
     text-decoration: none;
-    text-align: center;
-    padding-left: 200px;
+    text-align: justify;
     align-items: center;
    
   }
 
-
-  .grid-item p :hover{
-    color: #cd9e27;
-  }
-
-
- 
   .main-body{
   align-items: center; 
   }
-
-  #secondary-body{
+  
+    #secondary-body{
     color:#cd9e27;;
     background-color: #f1f1f1;
     align-items: center;
@@ -75,7 +65,6 @@ body {
     font-size: 40px;
     margin: 0px;
     padding: 0px;
-    text-shadow: 2px 2px 4px #000000;
     color:  #cd9d27;
     text-align: center;
     padding: 20px;
@@ -115,6 +104,21 @@ body {
     padding: 200px;
   }
 
+  .top-bar{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color:#222242;
+    font-family: "Raleway variant0", Tofu;
+    background-color: #cd9d27;
+  }
+  
+  .topa{
+    font-size: 25px;
+    color:#222242;
+    font-family: "Raleway variant0", Tofu;
+    text-align: center;
+  }
+
 #title-text{
   text-align: center;
 }
@@ -134,11 +138,9 @@ body {
   padding: 10px;
   padding-left: 40px;
   padding-right: 40px;
-  margin-top: 100px;
   align-self: center;
   border-radius: 25px;
   font-family: "Raleway variant0", Tofu;
-  text-shadow: 2px 2px 4px #000000;
 }
 
 #ubu-line1{
@@ -155,7 +157,6 @@ body {
   font-size: 31,7px;
   margin: 0px;
   margin-bottom: 40px;
-  text-shadow: 2px 2px 4px #000000;
   color:   #000000;
   text-align: center;
   padding: 1px;
@@ -346,6 +347,20 @@ body {
 #contact-form {
   align-self: center;
 }
+
+footer{
+ 
+    margin: 15px;
+    text-align: right;
+    font-family: "Raleway variant0", Tofu;
+    font-size: 12px;
+    color: #cd9d27;
+    background-size: cover;
+    background-color: #222242;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
 /*
 <
    <div class="overlay"></div>
@@ -359,4 +374,5 @@ body {
      <link 
          href="https://www.iol.co.za/personal-finance/opinion/new-draft-rules-on-the-proposed-two-pot-system-0b69f41b-327e-4630-a314-371de0e14b3e"
  >*/
-  
+
+ 
