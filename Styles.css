@@ -2,7 +2,8 @@ body {
     padding: 50px;
     margin: 0px;
     font-size: 15px;
-    font-family: "Raleway variant0", Tofu;
+    font-family: "Raleway vriant0", Tofu;
+    background-size: 1500px;
     background-size: cover;
     background-image: url(images/3d-hexagonal-back-white.jpg);
       }
@@ -269,8 +270,7 @@ body {
         #f1f1f1 20%, #f1f1f1 40%, 
         black 40%, black 60%, 
         #f1f1f1 60%, #f1f1f1 80%, 
-        black 80%, black 100%
-      );
+        black 80%, black 100%);
   }
   
   #hamburger-menu #sidebar-menu {
