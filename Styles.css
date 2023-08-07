@@ -13,7 +13,6 @@ body {
 
   #tertiary-body h1{
     padding-left: 150px;
-    text-shadow: 2px 2px 4px #000000;
   }
 
   .grid-container {
@@ -75,7 +74,6 @@ body {
     font-size: 40px;
     margin: 0px;
     padding: 0px;
-    text-shadow: 2px 2px 4px #000000;
     color:  #cd9d27;
     text-align: center;
     padding: 20px;
@@ -138,7 +136,6 @@ body {
   align-self: center;
   border-radius: 25px;
   font-family: "Raleway variant0", Tofu;
-  text-shadow: 2px 2px 4px #000000;
 }
 
 #ubu-line1{
@@ -155,7 +152,6 @@ body {
   font-size: 31,7px;
   margin: 0px;
   margin-bottom: 40px;
-  text-shadow: 2px 2px 4px #000000;
   color:   #000000;
   text-align: center;
   padding: 1px;
