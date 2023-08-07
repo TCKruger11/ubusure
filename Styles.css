@@ -93,25 +93,16 @@ body {
     margin: 0px;
     }
 
-  p{
-    font-size: 20px;
-    margin: 0px;
-    margin-bottom: 40px;
-    color:  #222242;
-    text-align: justify;
-    padding: 2px;
-    padding-left: 10%;
-    padding-right: 10%;
-  }
+a{
+  font-size: 20px;
+  margin: 0px;
+  margin-bottom: 40px;
+  color:  #222242;
+  text-align: center;
+  vertical-align: top;
+  padding: 200px;
+}
 
-  a{
-    font-size: 20px;
-    margin: 0px;
-    margin-bottom: 40px;
-    color:  #222242;
-    text-align: center;
-    padding: 200px;
-  }
 
 #title-text{
   text-align: center;
