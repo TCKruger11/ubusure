@@ -2,7 +2,7 @@ body {
     padding: 50px;
     margin: 0px;
     font-size: 15px;
-    font-family: "Raleway variant0", Tofu;
+    font-family: 'Raleway', sans-serif;
     background-size: cover;
     background-image: url(images/3d-hexagonal-back-white.jpg);
       }
@@ -109,15 +109,10 @@ a{
   margin-bottom: 40px;
   color:  #222242;
   text-align: center;
-<<<<<<< HEAD
   vertical-align: top;
   padding: 200px;
 }
 
-=======
-  padding: 200px;
-}
->>>>>>> TheDad
 
 #title-text{
 text-align: center;
