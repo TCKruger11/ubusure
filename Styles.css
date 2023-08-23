@@ -2,9 +2,11 @@ body {
     padding: 50px;
     margin: 0px;
     font-size: 15px;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway variant", Tofu;
     background-size: 1500px;
     background-image: url(images/3d-hexagonal-back-white.jpg);
+    text-align: center;
+    padding-left: 10%;
       }
 
 #tertiary-body {
@@ -25,7 +27,7 @@ body {
   }
 
 .grid-item{
-  width: 400px;
+  width: 33.33%;
   height: 400px;
   display: flex;
   align-items: center;
@@ -34,17 +36,16 @@ body {
 
   .grid-item p{
   
-    font-size: 50px;
+    font-size: 20px;
     font-family: "Raleway variant0", Tofu;
-    color: #cd9e27;
+    color:#222242;
   
   }
 
   .grid-item a{
    
-    font-size: 50px;
-    font-family: "Raleway variant0", Tofu;
-    color: #cd9e27;;
+    font-size: 25px;
+    color: #222242;
     text-decoration: none;
     text-align: center;
     padding-left: 200px;
@@ -57,7 +58,14 @@ body {
     color: #cd9e27;
   }
 
-
+  .column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    height: 225px;
+  }
+  
+ 
  
   .main-body{
   align-items: center; 
@@ -88,8 +96,11 @@ h2{
 }
 
 h3{
-  font-size: 20px;
+  font-size: 25px;
   margin: 0px;
+  margin-bottom: 10px;
+  color:#cd9d27;
+  text-align: center;
   }
 
 p{
@@ -97,7 +108,7 @@ p{
   margin: 0px;
   margin-bottom: 40px;
   color:  #222242;
-  text-align: justify;
+  text-align: center;
   padding: 2px;
   padding-left: 10%;
   padding-right: 10%;
@@ -105,12 +116,9 @@ p{
 
 a{
   font-size: 20px;
-  margin: 0px;
   margin-bottom: 40px;
   color:  #222242;
-  text-align: center;
-  vertical-align: top;
-  padding: 200px;
+  text-align: justify;
 }
 
 
@@ -141,7 +149,6 @@ font-size: 150px;
 
 #ubu-line1{
 background-color: #cd9e27;
-padding: 1px;
 padding-left: 33%;
 margin-top: 20px;
 align-self: center;
