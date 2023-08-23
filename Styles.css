@@ -118,7 +118,6 @@ a{
   font-size: 20px;
   margin-bottom: 40px;
   color:  #222242;
-  text-align: justify;
 }
 
 
@@ -150,10 +149,8 @@ font-size: 150px;
 #ubu-line1{
 background-color: #cd9e27;
 padding-left: 33%;
-margin-top: 20px;
-align-self: center;
 border-radius: 25px;
-
+vertical-align: middle;
 }
 
 #ubu-divider{
