@@ -67,23 +67,58 @@
             <h2>Complete the form below and we will get in touch</h2>
             </div>
         
-       <form action="/action_page.php">
-  <p><label for="fname">Name and Surname*:</label><br>
-  <input type="text" id="fname" name="fname" style="width: 300px;" required><br>
-Please type your name and surname here</p>
-  <p><label for="email">Email Address*:</label><br>
+    <form action=https://getform.io/f/26cbc3c8-8726-47df-a6fc-389255667aab method="POST">
+  <p2><strong><label for="name">Name and Surname:</label><br>
+  <input type="text" id="name" name="name" style="width: 300px;" required></strong></p2><br>
+  <a3>Please type your name and surname here</a3><br><br>
+  <p2><strong><label for="contactnr">Contact telephone number:</label><br>
+  <input type="text" id="contactnr" name="contactnr" style="width: 200px;" required></strong></p2><br>
+  <a3>Please type your telephone number here</a3><br><br>
+  <p2><strong><label for="email">Email Address:</label></strong></p2><br>
   <input type="email" id="email" name="email"  style="width: 300px;" 
-  $email = test_input($_POST["email"]);
-  if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {$emailErr = "Invalid email format";} required></p>
-  <p><lable for="enquiry">How can we help?</lable><br> 
-   <textarea id="enquiry" name="enquiry"  rows="10" cols="350" value="Type your question or comment here" style="width: 450px; height: 200px;"></textarea></p>
-  <input type="submit" value="Submit">
+          $email = test_input($_POST["email"]);
+          if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {$emailErr = "Invalid email format";} required></strong></p2><br>
+  <a3>Please provide us with a valid email address</a3><br><br>
+  <p2><strong><lable for="enquiry">How can we help?</lable><br> 
+   <textarea id="enquiry" name="enquiry"  rows="10" cols="350" value="Type your question or comment here" style="width: 450px; height: 200px;" required></textarea></strong></p2><br>
+   <button type="submit">Submit</button><br>
+
+<a3>All the fields required</a3>
+</form> <br>
+
+<a2><strong>By clicking the "Submit" button, you acknowledge that a reprentative of Ubusure will contact you</strong></a2><br>
+
+<!-- add hidden Honeypot input to prevent spams 
+
+<input type="hidden" name="_gotcha" style="display:none !important">
+
+Add checkbox handle 
+
+<input type="checkbox" name="subscribe" value="yes" checked>
+
+<input type="hidden" name="subscribe" value="no">
+
+Add radio button handle
+
+<input type="radio" name="gender" value="male" checked>
+
+<input type="radio" name="gender" value="female">
+
+<input type="radio" name="gender" value="other">
+
+Add select field handle 
+
+<select name="work-experience">
+
+    <option value="one-year">0-1 years</option>
+
+    <option value="one-five-years">1-5 years</option> -->
+
+</select>
+
+</form>
 
 
-</form> 
-
-<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p><br>
-<p>* required fields</p>
 
 </body>
 </html>
