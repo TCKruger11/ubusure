@@ -114,6 +114,14 @@ p{
   padding-right: 10%;
 }
 
+.p2{
+  font-size: 20px;
+  margin: 2px;
+  color:  #423722;
+  text-align: center;
+  padding: 2px;
+ }
+
 input{
   color: #222242;
   text-align:justify
@@ -128,6 +136,18 @@ a{
   color:  #222242;
   }
 
+.a2{
+  text-align: justify;
+  font-size: 50px;
+  color:  #222242;
+}
+
+.a3{
+  text-align: justify;
+  font-size: 0.875em;
+  color:  #cd9d27;
+
+}
 
 #title-text{
 text-align: justify;

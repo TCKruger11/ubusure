@@ -1,77 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <meta name="description" content="Ubusure_Index_Page" />
-    <meta
-      name="keywords"
-      content="Ubuntu, Insure, Insuance, Business Insurance, Life Insurance, Gap Cover"
-    />
-    <meta name="author" content="Tertius Kruger" />
-    <meta http-equiv="refresh" content="60" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <title>UbuSure</title>
-    <link rel="stylesheet" href="Styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <div class="overlay"></div>
-  </head>
-  
-  <body class="main-body">
-    <header>
-      <a
-      id="ubu-button"
-      href="Index.html"
-      >ubusure home</a>
-      <a
-      id="ubu-button"
-      href="Ubu-services.html"
-      >ubusure services</a>
-      <a
-      id="ubu-button"
-      href="Ubu-who.html"
-      >ubusure revealed</a>
-      <a
-      id="ubu-button"
-      href="Ubu-guide.html"
-      >ubusure guide</a><a
-      id="ubu-button"
-      href="Ubu-News.html"
-      >ubusure news</a>
-      <a
-      id="ubu-button"
-      href="Ubu-Contact.html"
-      >ubusure contact</a>
-
-      <nav id="main-menu" class="navigation"></nav>
-      <input type="checkbox" id="hamburger-input" class="burger-shower" />
-      <label id="hamburger-menu" for="hamburger-input">
-        <nav id="sidebar-menu" class="navigation"></nav>
-      </label>
-    </header>
-
-    <div id="Contact">
-    <h1>Get in touch!</h1>
-    <h2>Have any questions about our services or looking for a quote?</h2>
-    <h2>Complete the form below and we will get in touch</h2>
-    </div>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
-    <div id="contact-form">
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSce5iGN-iEixRXF3PF5dT-tYgoFwzg-1zITgZ4lThW6UGynEw/viewform?embedded=true" 
-    width="840" height="1283" frameborder="0" marginheight="0" marginwidth="0">Loading… 
-    </iframe>
-    </div>
+        <meta name="description" content="Ubusure_Index_Page" />
+        <meta
+          name="keywords"
+          content="Ubuntu, Insure, Insuance, Business Insurance, Life Insurance, Gap Cover"
+        />
+        <meta name="author" content="Tertius Kruger" />
+        <meta http-equiv="refresh" content="60" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+        <title>UbuSure</title>
+        <link rel="stylesheet" href="Styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap"
+          rel="stylesheet"
+        />
+        <div class="overlay"></div>
+      </head>
+      
+      <body class="main-body">
+        <header>
+          <a
+          id="ubu-button"
+          href="Index.html"
+          >ubusure home</a>
+          <a
+          id="ubu-button"
+          href="Ubu-services.html"
+          >ubusure services</a>
+          <a
+          id="ubu-button"
+          href="Ubu-who.html"
+          >ubusure revealed</a>
+          <a
+          id="ubu-button"
+          href="Ubu-guide.html"
+          >ubusure guide</a>
+          <a
+          id="ubu-button"
+          href="Ubu-News.html"
+          >ubusure news</a>
+          <a
+          id="ubu-button"
+          href="Ubu-Contact.html"
+          >ubusure contact</a>
+    
+    
+    
+          <nav id="main-menu" class="navigation"></nav>
+          <input type="checkbox" id="hamburger-input" class="burger-shower" />
+          <label id="hamburger-menu" for="hamburger-input">
+            <nav id="sidebar-menu" class="navigation"></nav>
+          </label>
+        </header>
 
-    <footer></footer>
-    <script src="navigation.js"></script>
-    <script src="pop-up.js"></script>
-  </body>
+        <div id="Contact">
+            <h1>Get in touch!</h1>
+            <h2>Have any questions about our services or looking for a quote?</h2>
+            <h2>Complete the form below and we will get in touch</h2>
+            </div>
+        
+    <form action=https://getform.io/f/26cbc3c8-8726-47df-a6fc-389255667aab method="POST">
+  <p2><strong><label for="name">Name and Surname:</label><br>
+  <input type="text" id="name" name="name" style="width: 300px;" required></strong></p2><br>
+  <a3>Please type your name and surname here</a3><br><br>
+  <p2><strong><label for="contactnr">Contact telephone number:</label><br>
+  <input type="text" id="contactnr" name="contactnr" style="width: 200px;" required></strong></p2><br>
+  <a3>Please type your telephone number here</a3><br><br>
+  <p2><strong><label for="email">Email Address:</label></strong></p2><br>
+  <input type="email" id="email" name="email"  style="width: 300px;" 
+          $email = test_input($_POST["email"]);
+          if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {$emailErr = "Invalid email format";} required></strong></p2><br>
+  <a3>Please provide us with a valid email address</a3><br><br>
+  <p2><strong><lable for="enquiry">How can we help?</lable><br> 
+   <textarea id="enquiry" name="enquiry"  rows="10" cols="350" value="Type your question or comment here" style="width: 450px; height: 200px;" required></textarea></strong></p2><br>
+   <button type="submit">Submit</button><br>
+
+<a3>All the fields required</a3>
+</form> <br>
+
+<a2><strong>By clicking the "Submit" button, you acknowledge that a reprentative of Ubusure will contact you</strong></a2><br>
+
+<!-- add hidden Honeypot input to prevent spams 
+
+<input type="hidden" name="_gotcha" style="display:none !important">
+
+Add checkbox handle 
+
+<input type="checkbox" name="subscribe" value="yes" checked>
+
+<input type="hidden" name="subscribe" value="no">
+
+Add radio button handle
+
+<input type="radio" name="gender" value="male" checked>
+
+<input type="radio" name="gender" value="female">
+
+<input type="radio" name="gender" value="other">
+
+Add select field handle 
+
+<select name="work-experience">
+
+    <option value="one-year">0-1 years</option>
+
+    <option value="one-five-years">1-5 years</option> -->
+
+</select>
+
+</form>
+
+
+
+</body>
 </html>
