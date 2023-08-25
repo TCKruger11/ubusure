@@ -115,10 +115,10 @@ p{
 }
 
 .p2{
-  font-size: 20px;
+  font-size: 30px;
   margin: 2px;
-  color:  #423722;
-  text-align: center;
+  color:  #d41b1b;
+  text-align: left;
   padding: 2px;
  }
 
@@ -148,6 +148,7 @@ a{
   color:  #cd9d27;
 
 }
+
 
 #title-text{
 text-align: justify;
