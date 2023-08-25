@@ -89,7 +89,7 @@ body {
 h2{
   font-size: 30px;
   margin: 0px;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   color:  #222242;
   text-align: center;
   padding: 10px;
@@ -107,12 +107,18 @@ h3{
 p{
   font-size: 20px;
   margin: 25px;
-  margin-bottom: 40px;
   color:  #222242;
-  text-align: justify;
+  text-align: center;
   padding: 2px;
   padding-left: 10%;
   padding-right: 10%;
+}
+
+input{
+  color: #222242;
+  text-align:justify
+
+
 }
 
 a{

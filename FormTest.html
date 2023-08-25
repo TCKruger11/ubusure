@@ -68,19 +68,22 @@
             </div>
         
        <form action="/action_page.php">
-  <p><label for="fname">First name:</label>
-  <input type="text" id="fname" name="fname" value=""></p><br>
-  <p><label for="lname">Last name:</label>
-  <input type="text" id="lname" name="lname" value=""></p><br>
-  <p><label for="email">Email Address:</label>
-  <input type="email" id="email" name="email" value=""
+  <p><label for="fname">Name and Surname*:</label><br>
+  <input type="text" id="fname" name="fname" style="width: 300px;" required><br>
+Please type your name and surname here</p>
+  <p><label for="email">Email Address*:</label><br>
+  <input type="email" id="email" name="email"  style="width: 300px;" 
   $email = test_input($_POST["email"]);
-  if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {$emailErr = "Invalid email format";}></p><br><br>
+  if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {$emailErr = "Invalid email format";} required></p>
+  <p><lable for="enquiry">How can we help?</lable><br> 
+   <textarea id="enquiry" name="enquiry"  rows="10" cols="350" value="Type your question or comment here" style="width: 450px; height: 200px;"></textarea></p>
   <input type="submit" value="Submit">
+
 
 </form> 
 
-<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p><br>
+<p>* required fields</p>
 
 </body>
 </html>
