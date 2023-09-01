@@ -65,18 +65,18 @@
         
     <form action=https://getform.io/f/26cbc3c8-8726-47df-a6fc-389255667aab method="POST">
   <p2><strong><label for="name">Name and Surname:</label><br>
-  <input type="text" id="name" name="name" style="width: 300px;" required></strong></p2><br>
+  <input type="text" id="name" name="name" style="width: 300px; height: 20px; background-color:#cd9d27;" required></strong></p2><br>
   <a3>Please type your name and surname here</a3><br><br>
   <p2><strong><label for="contactnr">Contact telephone number:</label><br>
-  <input type="text" id="contactnr" name="contactnr" style="width: 200px;" required></strong></p2><br>
+  <input type="text" id="contactnr" name="contactnr" style="width: 200px; height: 20px;background-color:#cd9d27;" required></strong></p2><br>
   <a3>Please type your telephone number here</a3><br><br>
   <p2><strong><label for="email">Email Address:</label></strong></p2><br>
-  <input type="email" id="email" name="email"  style="width: 300px;" 
+  <input type="email" id="email" name="email"  style="width: 300px; height: 20px; background-color:#cd9d27;" 
           $email = test_input($_POST["email"]);
           if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {$emailErr = "Invalid email format";} required></strong></p2><br>
   <a3>Please provide us with a valid email address</a3><br><br>
   <p2><strong><lable for="enquiry">How can we help?</lable><br> 
-   <textarea id="enquiry" name="enquiry"  rows="10" cols="350" value="Type your question or comment here" style="width: 450px; height: 200px;" required></textarea></strong></p2><br>
+   <textarea id="enquiry" name="enquiry"  rows="10" cols="350" value="Type your question or comment here" style="width: 450px; height: 200px;background-color:#cd9d27;" required></textarea></strong></p2><br>
    <button type="submit">Submit</button><br>
 
 <a3>All the fields required</a3>
