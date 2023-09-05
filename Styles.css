@@ -19,11 +19,11 @@ footer {
   color: #cd9e27;
 }
 
-  #tertiary-body h1{
-    padding-left: 150px;
+#tertiary-body h1{
+  padding-left: 150px;
   }
 
-  .grid-container {
+.grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
     column-gap: 25px;
@@ -36,7 +36,7 @@ footer {
   text-align: justify;
 }
 
-  .grid-item p{
+.grid-item p{
     font-size: 30px;
     color: #222242;
     text-decoration: none;
@@ -44,17 +44,21 @@ footer {
     align-items: center;
   }
 
-  .grid-item a{
-    font-size: 20px;
+.grid-item a{
+  text-align: justify;
+  font-size: 20px;
+  margin-bottom: 40px;
+  color:  #222242;
+  padding: 2px;
+  padding-left: 10%;
+  padding-right: 10%;
+  }
+
+.grid-item a :hover{
     color: #222242;
   }
 
-
-  .grid-item p :hover{
-    color: #cd9e27;
-  }
-
-  .column {
+.column {
     float: left;
     width: 33%;
     height: auto;
@@ -62,7 +66,7 @@ footer {
   
  
  
-  .main-body{
+.main-body{
   align-items: center; 
   }
 
@@ -95,8 +99,15 @@ h3{
   margin: 0px;
   margin-bottom: 10px;
   color:#222242;
-  
   }
+
+h4{
+  font-size: 30px;
+  margin: 0px;
+  color:  #cd9d27;
+  text-align: center;
+  padding: 10px;
+}
 
 p{
   font-size: 20px;
@@ -107,6 +118,16 @@ p{
   padding-left: 10%;
   padding-right: 10%;
 }
+
+a{
+  text-align: justify;
+  font-size: 20px;
+  margin-bottom: 40px;
+  color:  #222242;
+  padding: 2px;
+  padding-left: 10%;
+  padding-right: 10%;
+  }
 
 .p2{
   font-size: 30px;
@@ -119,16 +140,9 @@ p{
 input{
   color: #222242;
   text-align:justify
-
-
 }
 
-a{
-  text-align: justify;
-  font-size: 20px;
-  margin-bottom: 40px;
-  color:  #222242;
-  }
+
 
 .a2{
   text-align: justify;
