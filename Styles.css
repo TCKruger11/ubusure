@@ -3,11 +3,18 @@ body {
     margin: 0px;
     font-size: 15px;
     font-family: "Raleway variant", Tofu;
-    background-size: 1500px;
+    background-size: 2500px;
     background-image: url(images/3d-hexagonal-back-white.jpg);
     text-align: center;
     padding-left: 10%;
       }
+
+footer {
+  background-image: url(Images/3d-hexagonal-back-dark.jpg);
+  background-size: 750px;
+  color: #cd9d27;
+  padding: 5%;
+}
 
 #tertiary-body {
   color: #cd9e27;
@@ -218,6 +225,7 @@ border-radius: 25px;
   width: 100%;
   margin: 0px;  
   z-index: 9;
+
   
 }
 
@@ -229,9 +237,9 @@ border-radius: 25px;
   padding: 0px;
   display: flex;
   justify-content: flex-start;
-  align-items: center;
+  align-items: left;
   z-index: 9;
-  align-self: center;
+  align-self: left;
 }
 
 #main-menu li, #main-menu2 li,  #main-menu3 li {
